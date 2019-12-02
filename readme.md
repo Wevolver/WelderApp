@@ -1,6 +1,6 @@
-# Wevolver
+# Welder App
 
-> Wevolver's front end built in React
+> Welder's front end built in React
 
 # Dependencies
 
