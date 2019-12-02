@@ -1,0 +1,15 @@
+.crumbs {
+  font-size: 19.2px;
+  max-width: 98vw;
+  overflow-y: auto;
+
+}
+.crumb-separator {
+  margin: 0 4px;
+}
+
+@media screen and (max-width: 820px) {
+  .crumbs {
+    font-size: 16.2px;
+  }
+}

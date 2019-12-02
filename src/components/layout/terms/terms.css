@@ -1,0 +1,10 @@
+.terms {
+  max-width: 640px;
+  padding: 40px;
+  margin: auto;
+  height: 100%;
+}
+
+.terms h1{
+  font-weight: 500;
+}

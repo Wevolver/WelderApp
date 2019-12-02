@@ -1,0 +1,29 @@
+.register-page{
+  height: 100%;
+}
+
+.register-page .splash {
+  justify-content: flex-start;
+}
+
+.register-page .splash .wrapper{
+  margin-top: 5vh;
+}
+
+.register-page .splash h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 600
+}
+
+.register-page .splash ol {
+  line-height: 2rem;
+  font-size: .9rem;
+  font-weight: 600;
+  margin: 1rem 0 1rem 0
+}
+
+.account-features {
+  list-style: none;
+}

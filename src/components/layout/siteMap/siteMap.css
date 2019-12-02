@@ -1,0 +1,16 @@
+.site-map-link-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-map-link {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  width: 200px;
+}
+
+.site-map-link a{
+  font-weight: bold;
+  padding-bottom: 4px;
+  display: block;
+}

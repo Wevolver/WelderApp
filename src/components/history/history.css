@@ -1,0 +1,41 @@
+.past-commit-container {
+  border-bottom: 1px solid #bdbdbd;
+  background: white;
+  padding: 20px 0;
+}
+
+.past-commit-description {
+  padding-bottom: 2px;
+}
+.file-list-container {
+  font-size: 12px;
+}
+
+.file-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.file-status-symbol {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.file-path {
+  line-height: 16px;
+  color: #757575;
+}
+
+.files-expand-button {
+  background: #f7f9fa;
+  font-size: 12px;
+  padding: 0 4px;
+  height: 15px;
+  margin-top: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.commit-selected {
+  color: #EEB111;
+}

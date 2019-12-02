@@ -1,0 +1,26 @@
+.wizard-form-container {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+.wizard-form-section {
+  display: flex;
+}
+
+.wizard-form-left-column {
+  width: 0;
+}
+
+.wizard-form-right-column {
+  width: 100%;
+}
+
+.form-section-title {
+  margin: 48px 0 24px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #bdbdbd;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: none;
+}

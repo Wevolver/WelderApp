@@ -1,0 +1,13 @@
+.Tag {
+  text-transform: capitalize;
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left:0;
+  margin-right: 4px;
+}
+
+.Tag.remove {
+  border-color: #424242;
+  font-weight: 700;
+}

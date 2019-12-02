@@ -1,0 +1,25 @@
+.non-previewable {
+  text-align: center;
+  color: #83929C;
+  line-height: 28px;
+}
+
+.non-previewable .title {
+  font-size: 20px;
+}
+
+.react-pdf__Page {
+  /* margin: auto;
+  width: 100% !important;
+  height: unset !important; */
+}
+
+@media screen and (max-width: 620px) {
+  .text-preview-wrapper{
+    white-space: pre-wrap !important;
+    word-break: break-word;
+  }
+  .box-body-no-border {
+    padding-bottom: 0;
+  }
+}

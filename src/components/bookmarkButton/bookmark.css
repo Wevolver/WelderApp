@@ -1,0 +1,18 @@
+.bookmark-button a{
+  color: #fff;
+}
+
+.bookmark-button a:hover{
+  color: #fff;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.no-hover:hover {
+  background-color: #EEB111 !important;
+  cursor: default;
+}
+
+.no-hover:hover a{
+  text-decoration: none;
+}

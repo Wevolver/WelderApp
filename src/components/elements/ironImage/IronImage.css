@@ -1,0 +1,44 @@
+.iron-image-container {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.iron-image-preload {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-size: cover;
+}
+
+.iron-image-loaded {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0;
+
+  transition: opacity 0.25s ease;
+}
+
+.iron-image-loaded.contain {
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+
+}
+.iron-image-fade-in {
+  opacity: 1;
+}

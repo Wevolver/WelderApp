@@ -1,0 +1,142 @@
+.button-main {
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  height: 32px;
+  white-space: nowrap;
+  line-height: 32px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-left: 4px;
+  padding: 0 12px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #0277bc;
+  border: 1px solid #0277bc;
+  color: #FFF;
+  flex-shrink: 0;
+  min-width: 32px;
+  z-index: 2;
+}
+
+.square {
+  padding: 0 !important;
+  width: 32px;
+  padding: 4px;
+}
+
+.square svg{
+  width: 16px;
+  height: 16px;
+}
+
+.square.large svg{
+  width: 20px;
+  height: 20px;
+}
+
+.button-main:hover {
+  background-color: #008ac9;
+}
+
+.button-main:disabled,
+.button-main[disabled]{
+  border: none;
+  background-color: transparent;
+  color: #ddd;
+}
+
+.button-main.toggled {
+  border: 1px solid #424242;
+  font-weight: 600;
+}
+
+.button-main.white {
+  background-color: transparent;
+  color: #fff;
+  border-color: #f5f5f5;
+}
+
+/*.button-main.blue {
+  color: #fff;
+  background-color: #0277bc;
+  border: 1px solid #0277bc;
+}
+
+.button-main.blue:active {
+  color: #fff;
+}*/
+
+.button-main.white:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+.home-page.button-main.action {
+  border-color: #424242;
+  background-color: white;
+}
+
+.button-main.action:hover {
+  border-color: #EEB111;
+  background-color: #f1c141;
+}
+
+.button-main.action, .button-main.action:active {
+  border-color: #EEB111;
+  background: #EEB111;
+  color: #424242;
+}
+
+.button-main.action:disabled,
+.button-main.action[disabled]{
+  border: none;
+  background-color: white;
+  color: #ddd;
+}
+
+.button-main.subtle:hover {
+  color: #58a5ef;
+}
+
+.button-main.subtle, .button-main.subtle:active {
+  border: none;
+  background-color: transparent;
+  color: #0277bc;
+}
+
+.button-main.subtle:disabled,
+.button-main.subtle[disabled]{
+  border: none;
+  background-color: transparent;
+  color: #ddd;
+}
+.button-main.subtle.white {
+  color: #FFF;
+}
+
+.button-main.subtle.white:hover {
+  background-color: rgba(255, 255, 255, 0.07)
+}
+
+.button-icon {
+  height: 16px;
+}
+
+button:focus {outline:0;}
+
+.button-main:hover .follow-count{
+  border-left: 1px solid #fff!important;
+}
+
+.button-main.action .follow-count{
+  border-left: 1px solid #424242!important;
+}
+
+.button-main.action:hover .follow-count{
+  border-left: 1px solid #424242!important;
+}

@@ -1,0 +1,87 @@
+.desktop-page{
+  height: 100%;
+}
+
+.desktop-page .main-title{
+  font-size: 4rem;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+.desktop-page .center{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  max-width: 50vw;
+}
+
+.desktop-page .centered-row {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px 0 32px 0;
+}
+
+.download-button{
+  display: flex;
+  min-width: 15rem;
+  padding: .5em;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid #0277bc;*/
+  /*font-size: .8rem;*/
+}
+
+.version-note{
+  color: #757575;
+  margin-bottom: 2rem;
+}
+
+.os-note{
+  margin-bottom: 2rem;
+}
+
+.button, a.button, button {
+    font-family: Dosis,sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    word-break: break-word;
+    font-size: 16px;
+    text-decoration: none;
+    height: 2em;
+    white-space: nowrap;
+    line-height: 2em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 .6em;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #0277bc;
+    color: #0277bc;
+    flex-shrink: 0;
+}
+
+.pane.forty{
+    max-width: 400px;
+}
+
+.vertical{
+  display: flex;
+  flex-direction: column;
+}
+
+.belcher-yellow {
+  background: #EEB111;
+  color: #fff;
+  padding: .45rem 2rem;
+  border: none !important;;
+}
+
+.belcher-yellow:visited {
+  color: #fff;
+}

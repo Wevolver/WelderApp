@@ -1,0 +1,9 @@
+
+.ql-container {
+  min-height: 10em;
+}
+
+.ql-toolbar {
+  border-radius: 0;
+  background: #fff;
+}

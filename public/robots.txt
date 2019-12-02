@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /*/master/tree
+Allow: /*/master/tree$
+Allow: /*/master/tree/$
+Sitemap: https://www.wevolver.com/sitemap.xml 

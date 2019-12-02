@@ -1,0 +1,87 @@
+.about-splash {
+  width: 100%;
+  position: relative;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-splash-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about-splash-text {
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  color: #EEB111;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.about .line-container {
+  border-bottom: 1px solid #bdbdbd;
+}
+.about .wrapper {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  max-width: 700px;
+}
+.about h1 {
+  font-size: 2.5rem !important;
+  font-family: 'IBM Plex Sans',sans-serif;
+  word-break: break-word;
+  font-weight: 400;
+  text-transform: none;
+  margin-bottom: 1.6rem;
+}
+
+.about-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.about-member {
+  text-align: center;
+  margin-top: 48px;
+  position: relative;
+}
+.about-member-avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+}
+
+.about-member-name {
+  font-family: 'IBM Plex Sans',sans-serif;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1em;
+  word-break: break-word;
+  font-size: 19.2px;
+}
+
+.about-support-avatar {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 820px) {
+  .about-members {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,132 @@
+.overview-fieldarray-container {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.specs-row {
+    display: flex;
+}
+
+.specs-row .text-input-container{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.specs-row-labels {
+    display: flex;
+}
+
+.specs-row-labels .spacer-front{
+    width: 30px;
+}
+
+.specs-row-labels .spacer-back{
+    width: 32px;
+}
+
+.specs-row-labels .label{
+    flex-grow: 1;
+    font-size: 14px;
+    width: 0;
+}
+
+.sources-row {
+    display: flex;
+}
+
+.sources-row .text-input-container{
+    margin-bottom: 10px;
+}
+
+.sources-inner-row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.specs-cell,
+.sources-cell {
+    flex-grow:1;
+}
+
+.drag-handle {
+    width:20px;
+    height: 20px;
+    background: #f5f5f5;
+    border: 1px solid #bdbdbd;
+    cursor: move;
+    flex-shrink: 0;
+    margin-right: 10px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overviewV4 {
+    margin-bottom: 100px;
+}
+
+.overviewV4 h3 {
+    margin-top: 40px;
+}
+
+.overviewV4 p {
+    line-height: 24px;
+}
+
+.overviewV4 table{
+    width: 100%;
+    margin: 10px 0;
+    table-layout: fixed;
+}
+
+.overviewV4 table tr{
+    border-bottom: 1px #bdbdbd dashed;
+}
+
+.overviewV4 table td {
+    padding: 2px 0;
+}
+
+.overviewV4 table td.first-column {
+    color: #757575;
+}
+
+.overviewV4 table td.second-column {
+    text-align: right;
+    padding-right: 8px;
+}
+
+.overviewV4 a,
+.overviewV4-source a,
+.black-underline a{
+    color: #424242;
+    text-decoration: underline;
+}
+
+.overviewV4 a:hover,
+.overviewV4-source a:hover,
+.black-underline a:hover{
+    opacity: 0.75;
+}
+
+.overviewV4-source {
+    margin: 20px 0;
+}
+.overviewV4-source .authors{
+    color: #757575;
+    font-size: 14px;
+}
+
+.overviewV4 img{
+  max-width: 100%
+  margin:auto;
+}
+
+.overviewV4 p{
+  margin: 0;
+  display: flex;
+}
+
+.overviewV4-source .summary{
+    margin: 6px 0;
+}

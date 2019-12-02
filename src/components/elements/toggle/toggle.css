@@ -1,0 +1,28 @@
+.toggle-buttons {
+    display: flex;
+    border: 1px solid #757575;
+    border-radius: 2px;
+    display: inline-flex;
+}
+
+.toggle-buttons .toggle:first-child {
+    border-left: none;
+}
+
+.toggle-buttons .toggle {
+    border-left: 1px solid #757575;
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.toggle-buttons .toggle:hover {
+    background: #f7f9fa;
+}
+
+.toggle-buttons .toggle.active {
+    background: #f7f9fa;
+}

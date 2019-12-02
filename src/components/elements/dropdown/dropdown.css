@@ -1,0 +1,49 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown__trigger {
+  cursor: pointer;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+  padding: 8px;
+}
+
+.dropdown--active .dropdown__content {
+  display: block;
+  background: #424242;
+  border: 1px solid #bdbdbd;
+  z-index: 5;
+  right: 0;
+}
+
+.files-dropdown.dropdown--active .dropdown__content {
+  background: #fff !important;
+  margin-top: .1rem;
+  padding: 1rem;
+  padding-right: 5rem;
+}
+
+.navbar-dropdown .dropdown__content {
+  top: 39px;
+  border-top: none;
+}
+
+@media screen and (max-width: 820px) {
+  .navbar-dropdown .dropdown__content {
+    width: 100vw;
+    right: -12px;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.dropdown--disabled .button-main{
+  border: transparent;
+  color: #ddd;
+  cursor: default;
+}

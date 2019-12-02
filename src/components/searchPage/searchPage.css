@@ -1,0 +1,139 @@
+
+.search-page-card {
+  margin-top: 12px;
+  width: 340px;
+  height: calc(100% - 64px);
+}
+
+.home-search-page-card {
+  padding: 0 8px;
+  width: auto;
+}
+
+.search-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.search-page-item-container {
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  max-width: 340px;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid #bdbdbd;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-page-item-container {
+  max-width: 1000px;
+}
+
+.search-page-card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.search-page-card-title-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.search-page-item-container:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.search-page-item-container:last-child {
+  padding-bottom: 0;
+}
+
+.search-page-item-avatar {
+  max-width: 340px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 62.24%;
+  height: 1px;
+  background-color: #f7f9fa;
+  margin-right: 8px;
+}
+
+.search-page-item-avatar.home {
+  max-width: 1000px;
+}
+.home-search-page-card .search-page-item-avatar{
+  padding-bottom: 62.24%;
+  position: relative;
+  height: auto;
+  margin-right: 0;
+}
+.search-page-avatar-background-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+a.search-page-title {
+  margin: 8px 0;
+  font-family: 'IBM Plex Sans';
+  color: #424242;
+  text-decoration: underline;
+}
+
+a.search-page-title:hover {
+  opacity: 0.75;
+}
+
+.search-page-card-date {
+  font-size: 14px;
+  margin-top: -8px;
+  /*margin-bottom: 12px;*/
+  color: #757575;
+}
+
+.search-page-textline-placeholder {
+  background-color: #f7f9fa;
+  width: 100%;
+  height: 20px;
+  margin-top: 8px;
+}
+
+.search-page-textline-placeholder.last {
+  width: 75%;
+}
+
+.search-page-card-more a{
+  color: #424242;
+  text-decoration: underline;
+}
+@media screen and (max-width: 420px) {
+  .search-page-card-container{
+    width: 100%;
+  }
+  .search-page-card {
+    width: 100%;
+  }
+  .search-page-item-container {
+    max-width: 1000px;
+  }
+  .search-page-item-avatar {
+    max-width: 1000px;
+  }
+  .search-page-card-content {
+    padding: 0 12px;
+  }
+}
+
+.version3-about {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #757575;
+  min-height: 19px;
+}
